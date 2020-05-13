@@ -1,14 +1,19 @@
 /* --------------------------------------PSEUDO SELECTORIES -----------------------------------*/
 
 a:visited {
-    color: purple;
+    color: grey;
+}
+
+.boton-personalizado:hover{
+    background-color: brown;
 }
 /* ------------------------------------------GENERAL ------------------------------------------*/
 
 body{
     /*FONDO*/
     background: url(images/fondo.png); 
-    height: 100%;
+    height: 100%; /*TODO: arreglar que cuando achico la pantalla el fondo anda mal*/
+
     /*Letra*/
     font-family: 'Playfair Display', serif;
     text-align: center;
@@ -24,6 +29,10 @@ h1 {
     border: none;
 }
 
+p {
+    padding-left: 10px;
+}
+
 /* ---------------------------------------CLASES ----------------------------------------------*/
 
 .general {
@@ -31,37 +40,49 @@ h1 {
     color: black;   
     text-indent: 10px;
     margin: 0px 13%;
+    height: auto;
 
 }
 
 
 
-.subtitulo {
+.titulo {
+    text-transform: uppercase;
+    font-weight: bold;
     text-align:center;   
 }
 
-.decision1{
-    background: brown;
+.deciciones {
+    display: flex;
+    width: 100%;
     color: aliceblue;   
-    float: left;
-    width: 300px;
-    height: 50px;
+  }
+.decision1{
+    position: relative;
+   
+    width: 50%;
     text-align: center;   
     font-weight: bold  ;
-    margin-right: 120px; 
-    margin-top: 10px;
+
 }
 .decision2{
-    
-    background: brown;
-    color: aliceblue;   
+    position: relative;
     float: right;
-    width: 300px;
+    width: 50%;
     height: 50px;
-    text-align: center;   
     font-weight: bold  ;
-    margin-top: 10px;
 }
+
+.boton-personalizado {
+    text-decoration:none;
+    font-weight: bold;
+    font-size: 20px;
+    color:#ffffff;
+    padding: 5px 26%;
+    background-color: rgb(209, 50, 50);
+    border: 4px solid brown;
+    margin: 3px;
+    }
 
 /* -------------------------------------------ID ----------------------------------------------*/
 
@@ -73,10 +94,18 @@ h1 {
     margin-right: 130px;
 }
 
+#lista{
+    text-align: left;
+    padding: 0px 2% 2% 2%;
+}
+
 #pie{
+    color: white;
     font-size: 10px;
     text-align: right;
     font-weight: 900;
+    margin: 0px 13%;
+    height: auto;
 }
 
 #encabezado {
@@ -84,3 +113,4 @@ h1 {
     color: aliceblue;   
     padding: 1%;
 }
+
