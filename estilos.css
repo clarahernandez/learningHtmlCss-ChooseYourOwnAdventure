@@ -1,0 +1,86 @@
+/* --------------------------------------PSEUDO SELECTORIES -----------------------------------*/
+
+a:visited {
+    color: purple;
+}
+/* ------------------------------------------GENERAL ------------------------------------------*/
+
+body{
+    /*FONDO*/
+    background: url(images/fondo.png); 
+    height: 100%;
+    /*Letra*/
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    border: none;
+}
+
+h1 {
+    margin:0px;
+    padding: 0px;
+    border: none;
+}
+
+/* ---------------------------------------CLASES ----------------------------------------------*/
+
+.general {
+    background: aliceblue;
+    color: black;   
+    text-indent: 10px;
+    margin: 0px 13%;
+
+}
+
+
+
+.subtitulo {
+    text-align:center;   
+}
+
+.decision1{
+    background: brown;
+    color: aliceblue;   
+    float: left;
+    width: 300px;
+    height: 50px;
+    text-align: center;   
+    font-weight: bold  ;
+    margin-right: 120px; 
+    margin-top: 10px;
+}
+.decision2{
+    
+    background: brown;
+    color: aliceblue;   
+    float: right;
+    width: 300px;
+    height: 50px;
+    text-align: center;   
+    font-weight: bold  ;
+    margin-top: 10px;
+}
+
+/* -------------------------------------------ID ----------------------------------------------*/
+
+
+#introduccion {
+    text-align: center;
+    border-style: double ;   
+    margin-left: 130px;
+    margin-right: 130px;
+}
+
+#pie{
+    font-size: 10px;
+    text-align: right;
+    font-weight: 900;
+}
+
+#encabezado {
+    background: brown;
+    color: aliceblue;   
+    padding: 1%;
+}
