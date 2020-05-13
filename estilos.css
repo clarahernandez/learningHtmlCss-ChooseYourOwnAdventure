@@ -17,17 +17,17 @@ a:visited {
 body{
     /*FONDO*/
     background: url(images/fondo.png); 
+    background-color: black;
     height: 100%; /*TODO: arreglar que cuando achico la pantalla el fondo anda mal*/
-    overflow: scroll;
 
     /*Letra*/
     font-family: 'Playfair Display', serif;
     text-align: center;
-    box-sizing: border-box;
     margin: 0px;
-    padding: 0px;
-    border: none;
+    padding-bottom: 100%;
 }
+
+
 
 h1 {
     margin:0px;
@@ -73,6 +73,7 @@ p {
     color: aliceblue;
     margin: 0px;
     margin-top: 30px;
+    text-size-adjust: auto;
   }
 .decision1{
     width: 50%;
